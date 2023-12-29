@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_inicio"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/item_nosotros"
+        android:title="Nosotros">
+        <!-- Submenú de Nosotros -->
+        <menu>
+            <item android:id="@+id/subitem_grupo_atu" android:title="Grupo ATU" />
+            <!-- Más subítems aquí -->
+        </menu>
+    </item>
+    <!-- Más ítems de menú aquí -->
+</menu>

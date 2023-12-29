@@ -1,11 +1,10 @@
 package com.example.myapplicationfinal
 
+import android.view.MenuItem
 import android.os.Bundle
+import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
-
-
-
-
+import androidx.appcompat.widget.Toolbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,19 +16,22 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.toolbar_menu, menu)
         return true
     }
 
-    // Maneja las selecciones del menú aquí
+    // Aquí manejarías los clics en los ítems del menú
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Aquí puedes manejar las acciones de los submenús
-        return when (item.itemId) {
-            R.id.nav_inicio -> { true }
-            // Maneja más casos aquí
-            else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_inicio -> {
+                // Haz algo cuando se presione Inicio
+                return true
+            }
+            // Maneja otros casos aquí
         }
+        return super.onOptionsItemSelected(item)
     }
 }
+
 

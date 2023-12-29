@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_inicio"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/menu_nosotros"
+        android:title="Nosotros">
+        <menu>
+            <item android:id="@+id/submenu_grupo_atu" android:title="Grupo ATU"/>
+            <item android:id="@+id/submenu_agencia_colocacion" android:title="Agencia de Colocación"/>
+            <item android:id="@+id/submenu_nuestros_centros" android:title="Nuestros Centros"/>
+            <item android:id="@+id/submenu_unete" android:title="Únete"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_noticias"
+        android:title="Noticias" />
+    <item
+        android:id="@+id/menu_contacto"
+        android:title="Contacto" />
+    <item
+        android:id="@+id/menu_bolsa_empleo"
+        android:title="Bolsa de empleo">
+        <menu>
+            <item android:id="@+id/submenu_quiero_trabajar" android:title="Quiero Trabajar"/>
+            <item android:id="@+id/submenu_soy_empresa" android:title="Soy Empresa"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_formacion"
+        android:title="Formación">
+        <menu>
+            <item android:id="@+id/submenu_atu_digital" android:title="ATU Digital"/>
+            <item android:id="@+id/submenu_formacion_publica" android:title="Formación Pública"/>
+            <item android:id="@+id/submenu_oposiciones" android:title="Oposiciones"/>
+            <item android:id="@+id/submenu_idiomas" android:title="Idiomas"/>
+            <item android:id="@+id/submenu_formacion_privada" android:title="Formación Privada"/>
+            <item android:id="@+id/submenu_formacion_profesional" android:title="Formación Profesional"/>
+            <item android:id="@+id/submenu_academia_imagen_personal" android:title="Academia de Imagen Personal y Estilismo"/>
+        </menu>
+    </item>
+</menu>
