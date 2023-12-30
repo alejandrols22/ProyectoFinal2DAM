@@ -3,9 +3,10 @@
 
 
 
-    <style name="Theme.MyApplicationFInal" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.MyApplicationFInal" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Personaliza tu tema aquí -->
-        
+        <!-- Puedes agregar otros elementos de estilo si lo necesitas -->
     </style>
+
 
 </resources>
