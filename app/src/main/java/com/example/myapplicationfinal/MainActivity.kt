@@ -13,12 +13,18 @@ class MainActivity : AppCompatActivity() {
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
+        toolbar.setNavigationIcon(R.drawable.ic_menu_icon)
+
+        val fabChat: FloatingActionButton = findViewById(R.id.fab_chat)
+        fabChat.setOnClickListener {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.toolbar_menu, menu)
+        menuInflater.inflate(R.menu.toolbar_menu, menu) // Use the menu you want to display
         return true
     }
+
 
     // Aquí manejarías los clics en los ítems del menú
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
